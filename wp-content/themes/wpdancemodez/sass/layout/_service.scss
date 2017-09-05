@@ -1,0 +1,88 @@
+
+.wapper_more  {
+  margin-top: 70px;
+}
+
+.text_font_more {color:#fff;}
+.service_number{
+  height:55px;
+  &:hover{
+    height:auto;
+    .description_number{display: block;}
+    .title_number{background: #303f9f;}
+    .title_number h3.widget-title{color:#fff;}
+    .icon_number {
+      .so-widget-sow-button{
+        .ow-button-base{
+          padding: 10px;
+          a.ow-button-hover{
+            .sow-icon-fontawesome{
+              font-size: 20px !important;
+              display:none;
+              &:before{
+                color:#fff;
+                @include font-awesome(\f01b, 20px);
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+}
+.title_number{
+  width: 555px;
+  padding: 15px;
+  text-align: left;
+  background: #e1e1e1;
+  h3.widget-title{
+    margin-bottom: 0;
+    text-transform: capitalize;
+  }
+}
+.description_number{
+  width: 555px;
+  text-align: justify;
+  padding: 15px;
+  border: 1px solid #e1e1e1;
+  display: none;
+
+}
+.icon_number {
+  .so-widget-sow-button{
+    .ow-button-base{
+      padding: 10px;
+      a.ow-button-hover{
+        .sow-icon-fontawesome{
+          font-size: 20px !important;
+          &:hover{
+            :before{
+              color:#fff;
+              @include font-awesome(\f01b, 20px);
+            }
+
+          }
+        }
+      }
+    }
+  }
+}
+
+.icon_left{
+  @include icon_left_right_block;
+}
+.icon_right{
+  @include icon_left_right_block;
+}
+.view_more{
+  p{
+    a{
+      padding: 10px;
+      border: 1px solid #fff;
+      color: #000;
+      background: #fff;
+    }
+  }
+}

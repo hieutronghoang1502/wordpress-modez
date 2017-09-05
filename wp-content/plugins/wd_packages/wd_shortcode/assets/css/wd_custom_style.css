@@ -1,0 +1,93 @@
+/* Facebook likebox */
+.fb_iframe_widget {
+    display: block !important;
+}
+
+.fb-like-box iframe {
+    width: 100% !important;
+    border: medium none;
+    overflow: hidden; 
+    height: 230px; 
+    background:#fff;
+}
+
+.fb-like-box span {
+    width: auto !important;
+    position: initial !important;
+}
+.fb_iframe_widget_fluid span {
+    width:100% !important;
+}
+.fb_iframe_widget span {
+    position: static !important;
+}
+
+/* Column vc width auto */
+.wd-width-auto .vc_column-inner {width:auto !important;}
+
+/* Shortcode instagram */
+.wd-margin-left-0 {margin-left: 0px !important}
+.wd-margin-right-0 {margin-right: 0px !important}
+.wd-padding-left-0 {padding-left: 0px !important}
+.wd-padding-right-0 {padding-right: 0px !important}
+/* .wd-insta-content-item {display: flex;} */
+
+
+/* Shortcode: tvlgiao_wpdance_currency */
+.woocs_selector, .header-top-right .woocs_selector {
+    padding: 0;
+}
+
+ .widget-woocommerce-currency-switcher {
+    
+    position: relative;
+    overflow: hidden;
+    width:110px;
+    padding-top: 10px;
+}
+
+.widget-woocommerce-currency-switcher h2:after {
+    
+    display: inline-block;
+    content: "";
+    font-size: 14px;
+    line-height: inherit;
+    font-family: "FontAwesome";
+    padding-left: 10px;
+}
+.site-header .widget .widget-title {
+    margin: 0;
+}
+ .widget-woocommerce-currency-switcher form {
+    right: 0;
+    left: auto;
+    z-index: 10000;
+    transition:All 2s ease-out;
+    -webkit-transition:All 1s ease-out;
+    -moz-transition:All 1s ease-out;
+    -o-transition:All 1s ease-out;
+    transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+    
+}
+  .widget-woocommerce-currency-switcher > form {
+    position: absolute;
+    opacity: 0;
+    
+}
+ .widget-woocommerce-currency-switcher:hover {
+    overflow: visible;
+}
+.widget-woocommerce-currency-switcher:hover > form {
+    z-index: 10000;
+    opacity: 1;
+    margin-top: 0;
+    transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+}

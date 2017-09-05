@@ -1,0 +1,44 @@
+#wd_bridal_file_url_img,
+#wd_groom_file_url_img{ 
+	margin:0 0 0.5em;
+	border-radius:5px;
+	text-align:left;
+	display:block;
+}
+#wp_cp_custom_couple .inside label,.wd-teammember-meta label{
+	padding-bottom:5px;
+	display:block;
+}
+#wp_cp_custom_couple .inside textarea,
+#wp_cp_custom_couple .inside input,
+.wd-teammember-meta input,
+.wd-teammember-meta textarea{
+	width:100%;
+	border-radius:5px;
+	padding:10px;
+}
+.wd_gallery_images{
+	display: flex; -webkit-flex-wrap: wrap;  -ms-flex-wrap: wrap;  flex-wrap: wrap;
+}
+.wd_gallery_images li.attachment .check{
+	right:-3px;
+	top:-3px;
+}
+.wd_gallery_images li.attachment.details{
+	box-shadow:0 0 0 3px #fff inset, 0 0 0 5px #0073aa inset
+}
+.wd_gallery_images li.attachment{
+	float:none; 
+	display:inline-block;
+	width:16.6667%;
+}
+.wd_gallery_images li.attachment img{
+	max-width:100%;
+}
+
+
+/***team members**/
+.wd-teammember-meta input,
+.wd-teammember-meta textarea{
+	margin-bottom:20px;
+}

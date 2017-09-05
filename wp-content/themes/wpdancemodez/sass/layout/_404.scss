@@ -1,0 +1,131 @@
+body.error404 {
+  .wd-blog-breadcrumb.breadcrumb_default,.wd-header-menu-wrap,.wd-blog-breadcrumb.breadcrumb_banner {
+    display: none;
+  }
+  .wd-404-error {
+    background-repeat: no-repeat;
+    background-size: cover;    
+    .wd-page-header {
+      .wd-page-title {
+        font-size: 200px;
+      }
+      .wd-text-title {
+        font-size: 54px;
+        &:before {
+          display: none;
+        }
+      }
+    }
+    .wd-error-404 {
+      .wd-page-content .searchform
+      {
+        button {
+          background: none;
+          border:solid 2px #fff;
+        }
+        input[type='text'] {
+          border-radius: 0;
+        }
+      }
+      .wd-back-to-home-button {
+        color: #fff;
+        border:solid 2px #fff;
+        padding:10px;
+        margin-top: 20px;
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: 600;
+        &:hover{
+          background:#fff;
+          color: #282828;
+          font-weight: 600;
+        }
+      } 
+    } 
+    &.wd-bg-color-error {
+      .wd-error-404 {
+        .wd-page-header h1.wd-page-title {
+          color: $main_title_color_blog;
+        }
+        .wd-page-content {          
+          .searchform {
+            button{
+              background: $main_title_color_blog; 
+              &:hover {
+                background-color: #222;
+              }
+            }
+            input[type='text'] {
+              border-radius: 0;
+            }
+          }
+        } 
+      }     
+    }
+    &.wd-bg-image-error {
+      input[type='text']{
+        &::-webkit-input-placeholder {
+          color: #fff; }
+
+        &:-moz-placeholder {
+          color: #fff; }
+
+        &::-moz-placeholder {
+          color: #fff; }
+
+        &:-ms-input-placeholder {
+          color: #fff; }
+      }
+    }
+
+  }
+}
+
+.images_404{
+  padding-bottom:150px;
+  margin-bottom: 30px;
+}
+
+.title_404 {
+  height: 250px;
+  h3.widget-title{
+    font-size: 200px;
+    color: #fff;
+    text-align: center;
+  }
+}
+.text_404 {
+  h3.widget-title{
+    color: #fff;
+    text-align: center;
+    font-size: 54px;
+    text-transform: capitalize;
+    margin-bottom: 0
+  }
+  .textwidget{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+  }
+}
+.back_home {
+  p{
+    padding: 10px;
+    border: 1px solid #fff;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+  }
+}
+.wd-home-07.wd-header-main{
+    .wd-search-post form button {
+    color: #fff;
+    background: none;
+    padding: 0;
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+}

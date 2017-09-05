@@ -1,0 +1,98 @@
+/*--font face--*/
+@font-face {
+	font-family: 'RobotoRegular';
+	src: url('assets/fonts/Roboto-Regular.ttf');
+}
+@font-face {
+	font-family: 'RobotoMedium';
+	src: url('assets/fonts/Roboto-Medium.ttf');
+}
+@font-face {
+	font-family: 'RobotoBold';
+	src: url('assets/fonts/Roboto-Bold.ttf');
+}
+
+$font-custom:  'Source Sans Pro', sans-serif;
+$font-text:   'Libre Baskerville', serif;
+$font-info:    'Caveat', cursive;
+
+/******Class Padding********/
+	$var_space: 20px!default;//($var_space - 5px) ($var_space + 10px)
+	$rounded_corner:0;
+
+	$colorPrimary: #3478e3 !default;
+	$color-212121: #212121;
+	$colo-555: #555;
+	$colo-424242: #424242;
+	$colo-e0e0e0:  #e0e0e0;
+	$colo-e64a19: #e64a19;
+	$colo-80deea: #80deea;
+	$colo-d7d7d7: #d7d7d7;
+	$colo-a1a1a1: #a1a1a1;
+	$colo-bdbdbd: #bdbdbd;
+	$colo-737373: #737373;
+	$colo-757575: #757575;
+	$colo-7d7d7d: #7d7d7d;
+	$colo-898989: #898989;
+
+	$colo-282828: #282828;
+	$black:       #000000;
+	$white: 	  #ffffff;
+	$color-hover: #5d5a5a;
+
+/*=header==============*/
+	$header_bg_color1: #fff !default;
+	$header_bg_color2: #23282d !default;
+	$header_bg_color3: #fbe9e7 !default;
+	
+	$header_bg_cart_color: #fff !default;
+	
+	$header_text_color1: #3f3f3f !default; //fw
+	$header_text_color2: #fff !default; //fw
+	$header_text_color3: #282828 !default; //fw
+
+/*=top menu==============*/
+	$dropmenu_bg_color: #ffffff !default;
+	$menu_text_color: #000000 !default; //fw
+	$menu_hover_text_color: #5d5a5a !default;
+	$dropmenu_text_color:#363636 !default;
+	
+/*=body==============*/
+	$main_bg_color: #ffffff !default;
+	$main_text_color: #7f7e7e !default; //fw
+	$main_button_color: #fff !default;
+	$main_title_color: #3f3f3f !default;// h1 title fw
+	$main_title_color_h3:#337ab7 !default; // h3 title
+	$main_title_color_blog:#f7eee4 !default; // h3 title
+	$main_title_color_breadcrumb:#ffffff !default; // h3 title breadcrumb
+	$main_bg3_color: #3f3f3f !default;//price fw
+	$main_name_color: #3f3f3f !default;//name fw
+	$main_text2_color: #3f3f3f !default;// input text fw
+	$main_line_color: #dee2e5 !default;//line input,textarea fw
+	$border_color:    #ebebeb!default;
+
+
+//000--> darken($main_title_color,20%)
+
+/*=footer==============*/
+	$footer_bg_color: #23282d !default; //fw
+	$footer_bg2_color: #1a1e22 !default;//fw
+	$footer_bg3_color: #f9f9f9 !default;//fw
+	
+	$footer_line_color: #353d44 !default;//fw
+	
+	$footer_text_color: #fff !default;
+	$footer_text2_color: #9e9e9e !default; 
+	/*---- footer 08 ----*/
+	$footer_text3_color: #3f3f3f !default; 
+	$footer_text4_color: #a3a3a3 !default; 
+
+/*=button==============*/
+	
+	$btn1_bg_color: #dee2e5 !default;//btn add to cart
+	$btn1_text_color: #fff !default;
+	$btn5_add_button: #616161 !default;
+	$btn2_bg_color: #303f9f !default;//btn add to cart(detail) fw
+	$btn2_text_color: #000 !default;
+
+	$btn4_bg_color: #23282d !default;// 

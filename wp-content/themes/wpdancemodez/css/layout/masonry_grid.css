@@ -1,0 +1,5 @@
+@media (min-width: 992px) {
+  .woocommerce.columns-4 .products.grid li {
+    width: 25%; } }
+
+/*# sourceMappingURL=masonry_grid.css.map */

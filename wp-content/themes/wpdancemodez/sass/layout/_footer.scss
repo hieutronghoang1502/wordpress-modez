@@ -1,0 +1,185 @@
+.color-black {
+	color: $black;
+}
+
+.color-white {
+	color: $white;
+}
+
+.bg-black {
+	background-color: $black;
+}
+
+.bg-white {
+	background-color: $white;
+}
+footer.footer {
+	padding-bottom: 30px;
+
+	.pre-footer {
+		padding-top: 27px;
+		padding-bottom: 27px;
+		margin-bottom: 55px;
+		@extend .bg-black;
+		@extend .color-white;
+
+		.newsletter {
+			font-size: 18px;
+			font-weight: 700;
+			padding-top: 5px;
+			display: inline-block;
+
+			.fa {
+				margin-left: 20px;
+			}
+		}
+
+		form {
+			position: relative;
+
+			input[type="email"],
+			button {
+				height: 40px;
+			}
+
+			input[type="email"] {
+			    padding-right: 130px;
+			    @extend .color-white;
+			}
+
+			button {
+				position: absolute;
+				right: 0;
+				top: 0;
+				width: 110px;
+				border-radius: 0;
+				font-size: 11px;
+				font-weight: bold;
+			    letter-spacing: 1.5px;
+				@extend .color-black;
+				@extend .bg-white;
+
+				&:hover {
+					@extend .color-white;
+					background: #2f2f2f;
+					border: solid 1px #fff;
+				}
+			}
+		} //form
+
+		ul.cnss-social-icon {
+			li {
+				margin-left: 10px !important;
+				a {
+				    line-height: 37px;
+					padding: 0 !important;
+					margin: 0;
+					background-color: transparent !important;
+
+					i.fa:before {
+						font-size: 16px;
+					}
+
+					&:hover {
+						color: #ccc !important;
+					}
+				}
+			}
+		}
+	} // pre-footer
+
+	.wd-footer-content {
+		background-color: $white !important;
+		
+		.footer-contact {
+			h3 {
+				font-size: 18px;
+				font-weight: 700;
+				margin-top: 0;
+				margin-bottom: 20px;
+			}
+			.about-us, 
+			.contact-info, 
+			.more-links {
+				a, span {
+					@extend .color-black;
+				}
+			}
+
+			.contact-info, 
+			.more-links { 
+				font-size: 12px;
+			}
+
+			.about-us {
+				span {
+					font-style: italic;
+					text-align: justify;
+					display: inline-block;
+				}
+			} // about-us 
+
+			.contact-info {
+				.glyphicon:before {
+					font-size: 15px;
+				}
+
+				ul {
+					li {
+						display: table;
+					    margin-bottom: 10px;
+
+						.glyphicon  {
+						    padding-right: 15px;
+						}
+
+						span {
+							display: table-cell;
+						}
+					}
+				}
+			} // contact-info
+
+			.more-links {
+				a {
+					position: relative;
+					padding-left: 15px;
+					margin-bottom: 10px;
+					display: inline-block;
+
+					&:before {
+						content: "\009B";
+						position: absolute;
+						left: 0;
+						top: -1px;
+					}
+
+					&:hover {
+						color: #ccc;
+					}
+				}
+			} // more-links
+
+			.map {
+				iframe {
+					min-height: 120px;
+					display: block;
+					margin: auto;
+				}
+			} // map
+		} // footer-contact
+	}
+}
+
+.wd-footer-info {
+	@extend .color-white;
+	@extend .bg-black;
+	text-align: center;
+	font-size: 13px;
+    padding: 9px 0;
+    min-height: 40px;
+
+	a {
+		color: #fff !important;
+	}
+} //wd-footer-info

@@ -1,0 +1,80 @@
+/* BREADCRUMB */
+.wd-breadcrumb-subclass-init {
+	padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+	.breadcrumb-slug,
+	.breadcrumb-slug a {
+		font-size: 11px;
+		color: #a6a6a6;
+		text-transform: uppercase;
+	}
+
+	.breadcrumb-slug {
+		.fa {
+			margin: 0 5px;
+		}
+
+		a:hover {
+			color: $black;
+		}
+	}
+
+	.breadcrumb-title h3 {
+		display: none;
+		font-size: 30px;
+		margin-top: 15px;
+		font-family: $font-text;
+		font-style: italic;
+		margin-bottom: 0;
+	}
+}
+/* END: BREADCRUMB */
+
+
+/* ORTHER */
+.wdp-row-banner .vc_column-inner,
+.vc_custom_1501666400107 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.wdp-row-collection-column {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+//TITLE PAGE
+.wdp-title-libre {
+	font-family: "Libre Baskerville", serif !important;
+	font-style: italic !important;
+	text-align: center;
+}
+
+.wdp-title-source {
+	font-size: 30px;
+    font-family: "Source Sans Pro", sans-serif !important;
+    color: #000000;
+    font-weight: 700 !important;
+    position: relative;
+    padding-bottom: 16px;
+    margin-bottom: 70px;
+    text-transform: capitalize;
+    text-align: center!important;
+    border: none;
+
+    &:before {
+		content: "";
+		width: 35px;
+		height: 6px;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		text-align: center;
+		margin: 0 auto;
+		background: #fbe9e7;
+    }
+}
+/* END: ORTHER */

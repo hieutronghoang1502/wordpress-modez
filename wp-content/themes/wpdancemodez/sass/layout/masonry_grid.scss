@@ -1,0 +1,11 @@
+.woocommerce {
+	&.columns-4{
+		.products.grid{
+			li{
+				@media (min-width: 992px){
+					width: 25%;
+				}
+			}
+		}
+	}
+}
